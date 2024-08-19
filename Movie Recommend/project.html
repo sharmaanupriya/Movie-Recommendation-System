@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- mobile metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+    <!-- site metas -->
+    <title>Anupriya</title>
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- favicons -->
+    <link rel="icon" type="image/png" href="favicon/favicon.png">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- style css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive-->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- awesome fontfamily -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<!-- body -->
+
+<body class="main-layout">
+    <!-- loader  -->
+    <div class="loader_bg">
+        <div class="loader"><img src="images/loading.gif" alt="" /></div>
+    </div>
+    <!-- end loader -->
+    <div id="mySidepanel" class="sidepanel">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="team.html">Team</a>
+        <a href="project.html">Project</a>
+        <a href="contact.html">Contact</a>
+    </div>
+    <!-- header -->
+    <header>
+        <!-- header inner -->
+        <div class="head-top">
+            <div class="container-fluid">
+                <div class="row d_flex">
+                    <div class="col-sm-3">
+                        <div class="logo">
+                            <a href="index.html">CineEmoji &nbsp; <i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    
+                    <div class="col-sm-8">
+                        <ul class="email text-right">
+                            <li>
+                                <button class="openbtn" onclick="openNav()"><img src="images/menu_btn.png"></button>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+      <!-- works -->
+      <div class="works">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="titlepage text_align_center">
+                     <h2>CineEmoji:</h2> <center><p class="info">Explore a wide range of movies that can evoke various emotions. Choose an emotion and discover our movie recommendations.</p></center>
+                     <!-- <br><input type="text" placeholder="Search" id="search" class="search"></div> -->
+                  </div>
+               </div>
+            </div>
+            
+            <div class="main-content">
+                <center><form id="form">
+                    <input type="text" placeholder="Search" id="search" class="search">
+                    </form></center><br><br>
+                        
+                <!-- Emotion buttons section -->
+                <div class="emotion-buttons">
+                    <center><h2>Select an Emotion:</h2></center>
+                    <div id="tags" class="tags-container"></div>
+                    <!-- <a href="#" class="btn">Choose</a> -->
+                </div>
+        
+                <!-- Movie display section -->
+                <main id="main"></main>
+        
+                <!-- Pagination section -->
+                <div class="pagination">
+                    <div class="page" id="prev">Previous Page</div>
+                    <div class="current" id="current">1</div>
+                    <div class="page" id="next">Next Page</div>
+                </div>
+            </div>
+        
+            <!-- Navigation overlay -->
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content" id="overlay-content"></div>
+                <a href="javascript:void(0)" class="arrow left-arrow" id="left-arrow">&#8656;</a>
+                <a href="javascript:void(0)" class="arrow right-arrow" id="right-arrow">&#8658;</a>
+            </div>
+
+         </div>
+      </div>
+      <!-- works -->
+      <!-- footer -->
+    <footer>
+      <div class="footer">
+          <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <a class="logo_bottom" href="index.html">CineEmoji</a>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="Informa conta">
+                          <h3>Contact Me</h3>
+                          <ul>
+                              <li><a href="Javascript:void(0)"><i class="fa fa-map-marker" aria-hidden="true"></i> Location : Mumbai</a></li>
+                              <li><a href="Javascript:void(0)"><i class="fa fa-phone" aria-hidden="true"></i> Call : +91 9876543210</a></li>
+                              <li><a href="Javascript:void(0)"><i class="fa fa-envelope" aria-hidden="true"></i> Anupriya23@gmail.com</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="Informa helpful">
+                          <h3>Useful Link</h3>
+                          <ul>
+                              <li><a href="about.html">About Me</a></li>
+                              <li><a href="project.html">Project</a></li>
+                              <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="Informa">
+                          <h3>Members</h3>
+                          <ul>
+                              <li>Anupriya Sharma</li>
+                              <li>ABC</li>
+                                <li>XYZ</li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-md-3 col-sm-6">
+                      <div class="Informa">
+                          <h3>Newsletter</h3>
+                          <form class="newslatter_form">
+                              <input class="ente" placeholder="Enter your email" type="text" name="Enter your email">
+                              <button class="subs_btn">Subscribe</button>
+                          </form>
+                      </div>
+                  </div>
+                  <div class="col-sm-5">
+                      <ul class="social_icon text_align_right d_none">
+                          <li> <a href="Javascript:void(0)"><i class="fa fa-facebook-f"></i></a></li>
+                          <li> <a href="Javascript:void(0)"><i class="fa fa-twitter"></i></a></li>
+                          <li> <a href="Javascript:void(0)"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                          <li> <a href="Javascript:void(0)"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                          <li> <a href="Javascript:void(0)"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                      </ul>
+                  </div>
+              </div>
+              <div class="copyright text_align_center">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <p>© 2023 All Rights Reserved | Developed by <a href="#"> Anupriya Sharma</a></p>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  
+    <!-- end footer -->
+    <!-- Javascript files-->
+    <script src="js/jquery.min.js "></script>
+    <script src="js/bootstrap.bundle.min.js "></script>
+    <script src="js/jquery-3.0.0.min.js "></script>
+    <script src="js/custom.js "></script>
+    <script src="js/newscript.js"></script>
+ </body>
+</html>
+
